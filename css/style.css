@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
+body{
+    background-color: #151515;
+    font-family: 'Manrope', sans-serif;
+    color: #fff;
+}
+::selection{
+    background-color: #FF5E19;
+    color: #fff;
+}
+.container{
+    max-width: 1220px;
+}
+.card{
+    border: 0!important;
+    background-color: initial!important;
+}
+.first-column #btn-select,
+.btn-calculate{
+    background-color: #015196;
+    color: #fff;
+    letter-spacing: .5px;
+    padding: 12px 0;
+}
+.card-col{
+    border: 1px solid #434343;
+}
+img{
+    width: 100%;
+}
+.tpf-h1,h1{
+    font-size: 70px;
+    color: #FF5E19;
+    font-family: 'Oleo Script Swash Caps';
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+h3,.card-title{
+    font-size: 24px;
+    font-weight: 800;
+    position: relative;
+}
+
+
+.top-section{
+    background-color: #000;
+    padding: 100px 0;
+}
+.top-rgt-btm-img{
+    width: 200px;
+}
+.top-sec-cntlr{
+    position: relative;
+}
+.rgt-top-ang {
+    right: -40px!important;
+    top: -60px!important;
+}
+.top-section-inr p{
+    max-width: 670px;
+}
+.first-column {
+    padding-right: 30px;
+}
+
+.top-lft-img{
+    left: 0;
+    bottom: -18.1px;
+}
+.top-rgt-btm-img{
+    right: 0;
+    bottom: 0;
+    bottom: -13.1px;
+}
+.text-line{
+    bottom: 0;
+    right: 215px;
+    bottom: -45px;
+}
+
+.bottom-section{
+    padding-top: 70px;
+    padding-bottom: 150px;
+}
+.goal,.assist{
+    color: #B3B3B3;
+    padding: 0 20px;
+}
+.goal::after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    right: -5px;
+    transform: translateY(-50%);
+    background-color: rgb(255, 255, 255);
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+}
+#selected-player ::marker {
+    color: #888888;
+    font-size: 20px;
+    font-weight: 800;
+}
+#selected-player li{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.selected-cntlr,
+.budget-cntlr{
+    background-color: #0D0D0D;
+}
+.budget-cntlr label,
+.player-expenses{
+    color: #AFAFAF;
+}
+#budget-input-field-1,
+#budget-input-field-2,
+#budget-input-field-3{
+    width: 168px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding-left: 15px!important;
+    transition: .5s;
+}
+#budget-input-field-1:focus,
+#budget-input-field-2:focus,
+#budget-input-field-3:focus{
+    
+    border-radius: initial!important;
+    border-color: #FF5E19!important;
+}
+#budget-input-field-1:focus-visible,
+#budget-input-field-2:focus-visible,
+#budget-input-field-3:focus-visible{
+    outline: none!important;
+}
+#calculate-total{
+    color: #FF5E19;
+}
+.selected-title{
+    margin-bottom: 60px;
+}
+.budget-title{
+    margin-bottom: 40px;
+}
+.selected-title::after,
+.budget-title::after{
+    position: absolute;
+    content: '';
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url('../images/line-ang.png');
+    width: 144px;
+    height: 13px;
+    background-repeat: no-repeat;
+}
